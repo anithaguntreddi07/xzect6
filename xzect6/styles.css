@@ -1,0 +1,117 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 20px;
+}
+
+#home {
+    background: url('home.png') no-repeat center center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+#about-me {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#about-me h2, #skills h2, #projects h2, #contact h2 {
+    margin-bottom: 30px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-form .form-control {
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+}
+
+header .nav-link {
+    color: #fff;
+    padding: 10px;
+}
+.btn-custom {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #555;
+}
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+}
